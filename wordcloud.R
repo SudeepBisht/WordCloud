@@ -28,7 +28,6 @@ files <- tm_map(files,removeNumbers)
 files <- tm_map(files,removePunctuation)
 files <- tm_map(files,stripWhitespace)
 
-#corpus_clean <- tm_map(news_corpus, content_transformer(tolower))
 files <- tm_map(files, PlainTextDocument)
 
 #  Create structured data from the text file
