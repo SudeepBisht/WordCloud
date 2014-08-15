@@ -5,9 +5,13 @@ Using R a word cloud has been created taking into account the new tm 0.6.0 packa
 
 
 In the word cloud creation following packages were installed and loaded:
+
 1. tm
+
 2. ctv
+
 3. wordcloud
+
 4. SnowballC
 
 Also NaturalLanguageProcessing views were taken into account
