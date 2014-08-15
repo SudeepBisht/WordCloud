@@ -8,6 +8,7 @@ In the word cloud creation following packages were installed and loaded:
 1. tm
 2. ctv
 3. wordcloud
+4. SnowballC
 
 Also NaturalLanguageProcessing views were taken into account
 
