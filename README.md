@@ -20,3 +20,6 @@ In the creation of the word cloud all the punctuation and the numbers and other 
 
 The files that were taken into account for making the word cloud have a great size and a lot of words so to make the word cloud visually representable the data frequency has been limited.
 The frequency limitation can be seen in the wordcloud command.
+
+NOTE: Put the files in your current working directory but the problem occurs that usually there are other files also in your working directry so all the files would be analyzed in making the wordcloud. To avoid such a situation put the files in a separate folder and put the file location in place of getwd(). 
+  The file address needs to be in "" and either subsitute the forwardslashes with backslashes or add 1 more forwardslash       wherever a forward slash is there in the address. 
