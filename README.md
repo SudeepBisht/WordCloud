@@ -14,7 +14,7 @@ In the word cloud creation following packages were installed and loaded:
 
 4. SnowballC
 
-Also NaturalLanguageProcessing views were taken into account
+
 
 In the creation of the word cloud all the punctuation and the numbers and other repeating punctuations and whitespaces have been removed. This can been seen in the statements tm_map.
 
