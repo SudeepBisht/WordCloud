@@ -8,7 +8,7 @@ library (tm)
 library (SnowballC)
 library(wordcloud)
 
-install.views("NaturalLanguageProcessing")
+
 
 #Create a corpus from the collection of text files
 
