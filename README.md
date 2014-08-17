@@ -25,3 +25,8 @@ The file data is taken from the wikipedia page on R language.
 
 NOTE: Put the files in your current working directory but the problem occurs that usually there are other files also in your working directry so all the files would be analyzed in making the wordcloud. To avoid such a situation put the files in a separate folder and put the file location in place of getwd(). 
   The file address needs to be in "" and either subsitute the forwardslashes with backslashes or add 1 more forwardslash       wherever a forward slash is there in the address. 
+
+For a further study of wordcloud you can look at the below link:
+  http://www.r-bloggers.com/create-twitter-wordcloud-with-sentiments/
+
+It is a very good article on how to make a word cloud using sentimental analysis on twitter data.
