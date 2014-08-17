@@ -19,7 +19,8 @@ files <- Corpus(DirSource(fname))
 files <- tm_map(files, PlainTextDocument)
 
 for (j in seq(files))
-{files[[j]] <- gsub("/"," ",files[[j]])
+{
+ files[[j]] <- gsub("/"," ",files[[j]])
  files[[j]] <- gsub("@"," ",files[[j]])}
 
 files <- tm_map(files,tolower)
@@ -49,3 +50,5 @@ wordcloud(data$word,data$freq,min.freq=2,random.order=F,random.color=T,colours=r
 
 #random.order:Words are plotted in random order. 
 #             If False words are pllotted in decreasing order
+
+# data$freq is the frequency of the words in the file
